@@ -1,0 +1,618 @@
+[
+  {
+    "id": "",
+    "param_en": "Geo Background",
+    "param_zh": "地质背景",
+    "weight": 0.32,
+    "parent": -1,
+    "group_id": "",
+    "children": [
+      {
+        "id": "",
+        "param_en": "Coal Bed Pitch",
+        "param_zh": "煤层倾角",
+        "weight": 0.23,
+        "parent": "",
+        "group_id": "",
+        "select_table_ac": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=20",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "20-40",
+            "value": "-0.02x+1.4"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=40",
+            "value": "0.60"
+          }
+        ],
+        "select_table_bc": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=20",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "20-40",
+            "value": "-0.02x+1.4"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=40",
+            "value": "0.60"
+          }
+        ]
+      },
+      {
+        "id": "",
+        "param_en": "Depth",
+        "param_zh": "埋深",
+        "weight": 0.37,
+        "parent": "",
+        "group_id": "",
+        "select_table_ac": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=500",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "500-800",
+            "value": "-0.002x+2"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=800",
+            "value": "0.40"
+          }
+        ],
+        "select_table_bc": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=500",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "500-800",
+            "value": "-0.002x+2"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=800",
+            "value": "0.40"
+          }
+        ]
+      },
+      {
+        "id": "",
+        "param_en": "Thickness of main coal seam",
+        "param_zh": "主采煤层厚度",
+        "weight": 0.27,
+        "parent": "",
+        "group_id": "",
+        "select_table_ac": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=15",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "10-15",
+            "value": "0.08x-0.2"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=10",
+            "value": "0.60"
+          }
+        ],
+        "select_table_bc": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=30",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "20-30",
+            "value": "0.04x-0.2"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=20",
+            "value": "0.60"
+          }
+        ]
+      },
+      {
+        "id": "",
+        "param_en": ">2m number of coal seam",
+        "param_zh": ">2m煤层数",
+        "weight": 0.13,
+        "parent": "",
+        "group_id": "",
+        "select_table_ac": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=3",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "2",
+            "value": "0.80"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "1",
+            "value": "0.60"
+          }
+        ],
+        "select_table_bc": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=5",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "3-5",
+            "value": "0.2x"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=3",
+            "value": "0.60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "",
+    "param_en": "Resource Condition",
+    "param_zh": "资源条件",
+    "weight": 0.11,
+    "parent": -1,
+    "group_id": "",
+    "children": [
+      {
+        "id": "",
+        "param_en": "Gas Content",
+        "param_zh": "含气量",
+        "weight": 1.00,
+        "parent": "",
+        "group_id": "",
+        "select_table_ac": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=15",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "10-15",
+            "value": "0.08x-0.2"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=10",
+            "value": "0.60"
+          }
+        ],
+        "select_table_bc": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=12",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "8-12",
+            "value": "0.1x-0.2"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=8",
+            "value": "0.60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "",
+    "param_en": "Reservoir Conditions",
+    "param_zh": "储层条件",
+    "weight": 0.36,
+    "parent": -1,
+    "group_id": "",
+    "children": [
+      {
+        "id": "",
+        "param_en": "Permeability",
+        "param_zh": "渗透率",
+        "weight": 0.43,
+        "parent": "",
+        "group_id": "",
+        "select_table_ac": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=0.1",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "0.01-0.1",
+            "value": "(40x+5)/9"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=0.01",
+            "value": "0.60"
+          }
+        ],
+        "select_table_bc": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=0.6",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "0.1-0.6",
+            "value": "0.8x+0.52"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=0.1",
+            "value": "0.60"
+          }
+        ]
+      },
+      {
+        "id": "",
+        "param_en": "Reservoir pressure gradient",
+        "param_zh": "储层压力梯度",
+        "weight": 0.16,
+        "parent": "",
+        "group_id": "",
+        "select_table_ac": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=1",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "0.6-1",
+            "value": "x"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=0.6",
+            "value": "0.60"
+          }
+        ],
+        "select_table_bc": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=1",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "0.6-1",
+            "value": "x"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=0.6",
+            "value": "0.60"
+          }
+        ]
+      },
+      {
+        "id": "",
+        "param_en": "Gas Saturation",
+        "param_zh": "含气饱和度",
+        "weight": 0.18,
+        "parent": "",
+        "group_id": "",
+        "select_table_ac": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=100",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "60-100",
+            "value": "0.80"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=60",
+            "value": "0.60"
+          }
+        ],
+        "select_table_bc": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=100",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "60-100",
+            "value": "0.80"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=60",
+            "value": "0.60"
+          }
+        ]
+      },
+      {
+        "id": "",
+        "param_en": "Degree of Tectonic Coal Development",
+        "param_zh": "构造煤发育程度",
+        "weight": 0.23,
+        "parent": "",
+        "group_id": "",
+        "select_table_ac": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=30",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "30-60",
+            "value": "-0.02x+1.6"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=60",
+            "value": "0.40"
+          }
+        ],
+        "select_table_bc": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=30",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "30-60",
+            "value": "-0.02x+1.6"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=60",
+            "value": "0.40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "",
+    "param_en": "Develop Condition",
+    "param_zh": "开发条件",
+    "weight": 0.21,
+    "parent": -1,
+    "group_id": "",
+    "children": [
+      {
+        "id": "",
+        "param_en": "Prospecting Depth",
+        "param_zh": "勘查程度",
+        "weight": 0.50,
+        "parent": "",
+        "group_id": "",
+        "select_table_ac": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=0.9",
+            "value": "1"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "0.6-0.9",
+            "value": "2x-0.8"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=0.6",
+            "value": "0.40"
+          }
+        ],
+        "select_table_bc": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": ">=0.9",
+            "value": "1"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "0.6-0.9",
+            "value": "2x-0.8"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "<=0.6",
+            "value": "0.40"
+          }
+        ]
+      },
+      {
+        "id": "",
+        "param_en": "Topographic Condition",
+        "param_zh": "地形条件",
+        "weight": 0.26,
+        "parent": "",
+        "group_id": "",
+        "select_table_ac": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "好",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "中",
+            "value": "0.80"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "差",
+            "value": "0.60"
+          }
+        ],
+        "select_table_bc": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "好",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "中",
+            "value": "0.80"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "差",
+            "value": "0.60"
+          }
+        ]
+      },
+      {
+        "id": "",
+        "param_en": "Economic and Environmental Conditions",
+        "param_zh": "经济环境条件",
+        "weight": 0.24,
+        "parent": "",
+        "group_id": "",
+        "select_table_ac": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "好",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "中",
+            "value": "0.80"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "差",
+            "value": "0.60"
+          }
+        ],
+        "select_table_bc": [
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "好",
+            "value": "1.00"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "中",
+            "value": "0.80"
+          },
+          {
+            "id": "",
+            "param_id": "",
+            "standard": "差",
+            "value": "0.60"
+          }
+        ]
+      }
+    ]
+  }
+]

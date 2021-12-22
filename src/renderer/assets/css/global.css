@@ -1,0 +1,74 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* table表格的公共样式 */
+.el-table::before {
+  height: 0 !important;
+  margin-bottom: 10px;
+}
+
+.el-table {
+  border-radius: 10px;
+}
+
+/* 分页组件的公用样式 */
+.el-pagination {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagin-area {
+  height: 50px;
+}
+
+/* 定义滚动条样式 */
+*::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+*::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(221, 222, 224);
+  border-radius: 6px;
+}
+
+/*定义滑块 内阴影+圆角*/
+.scrollbarHide::-webkit-scrollbar {
+  display: none
+}
+
+.scrollbarShow::-webkit-scrollbar {
+  display: block
+}
+/* el-dialog */
+.el-dialog__footer {
+  padding: 10px !important;
+  padding-right: 20px !important;
+}
+.el-dialog__body {
+  padding: 10px 20px !important;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+/*去掉默认的增减样式*/
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
